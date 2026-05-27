@@ -1,6 +1,5 @@
-# ==========================================
 # PROBLEMA 5 - CONTROL DE HORAS TRABAJADAS
-# ==========================================
+
 
 # Matriz de recursos
 recursos = [
@@ -23,9 +22,9 @@ def calcular_horas(horas):
     return total, clasificacion
 
 # Título
-print("===================================")
+
 print(" REPORTE DE HORAS SEMANALES ")
-print("===================================")
+
 
 # Recorrer matriz
 for recurso in recursos:
@@ -39,4 +38,4 @@ for recurso in recursos:
     print("Empleado:", nombre)
     print("Total horas:", total)
     print("Clasificación:", clasificacion)
-    print("-----------------------------------")
+  
